@@ -1,0 +1,31 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="560" rx="34" fill="#F8FAFC"/>
+  <rect width="900" height="560" rx="34" fill="url(#blogBg)"/>
+  <rect x="70" y="72" width="760" height="416" rx="30" fill="white" fill-opacity=".92"/>
+  <rect x="108" y="112" width="690" height="54" rx="18" fill="#111827"/>
+  <rect x="136" y="132" width="124" height="15" rx="8" fill="#FFFFFF"/>
+  <rect x="646" y="126" width="116" height="26" rx="13" fill="#6D5DFC"/>
+  <rect x="108" y="212" width="430" height="212" rx="28" fill="#F8FAFC"/>
+  <rect x="136" y="244" width="236" height="22" rx="11" fill="#0F172A"/>
+  <rect x="136" y="292" width="352" height="15" rx="8" fill="#64748B"/>
+  <rect x="136" y="324" width="300" height="15" rx="8" fill="#94A3B8"/>
+  <rect x="136" y="370" width="118" height="42" rx="14" fill="#6D5DFC"/>
+  <rect x="580" y="212" width="218" height="212" rx="28" fill="url(#panel)"/>
+  <circle cx="690" cy="288" r="54" fill="#FFFFFF" fill-opacity=".88"/>
+  <path d="M658 288H722M690 256V320" stroke="#6D5DFC" stroke-width="16" stroke-linecap="round"/>
+  <rect x="608" y="368" width="164" height="14" rx="7" fill="#FFFFFF" fill-opacity=".88"/>
+  <rect x="632" y="394" width="116" height="12" rx="6" fill="#FFFFFF" fill-opacity=".62"/>
+  <text x="108" y="468" fill="#6D5DFC" font-family="Arial, sans-serif" font-size="34" font-weight="800">Blog Application</text>
+  <text x="108" y="501" fill="#475569" font-family="Arial, sans-serif" font-size="18" font-weight="700">Authentication, JWT, posts and responsive React UI</text>
+  <defs>
+    <linearGradient id="blogBg" x1="0" y1="0" x2="900" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".52" stop-color="#F5F3FF"/>
+      <stop offset="1" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="580" y1="212" x2="798" y2="424" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,51 @@
+Ganesh Sharma
+MCA Student | Full Stack Developer
+
+Email: gansharma03@gmail.com
+Phone: +91 93103 00627
+Location: Greater Noida, Uttar Pradesh
+LinkedIn: https://www.linkedin.com/in/ganesh-sharma564211253
+GitHub: https://github.com/gansharm
+
+Profile Summary
+Targeting Full Stack Developer roles with an organization of high repute, with
+scope for improving knowledge and further career growth.
+
+- MERN stack: MongoDB, Express.js, React and Node.js, with a strong background
+  in building scalable web applications.
+- Demonstrated ability to manage and deliver projects efficiently, from initial
+  planning and design to final deployment and maintenance.
+- Committed to staying updated with the latest industry trends and technologies,
+  continuously enhancing skills to provide innovative solutions.
+
+Education
+- Master in Computer Application, Noida Institute of Engineering and Technology,
+  Greater Noida, Uttar Pradesh. Pursuing now. Current CGPA: 7.8.
+- Bachelor in Computer Application, Greater Noida Institute of Technology,
+  Greater Noida, Uttar Pradesh. Graduated June 2024. CGPA: 7.0.
+
+Projects
+1. Blog Application with Authentication
+   Duration: June 2024 - Current
+   Tools: React, Node.js, Express.js, JavaScript, MongoDB, JWT
+   A full-featured blog application enabling users to register, authenticate and
+   manage their blog posts seamlessly.
+
+2. Full Fledge E-Commerce Website
+   Duration: January 2024 - March 2024
+   Tools: React, API Integration, Node.js, CORS, JWT, JavaScript
+   Designed and implemented an e-commerce website with user authentication,
+   order management, cart functionality and admin controls.
+
+Academic Achievements
+- Earned a certification in Full Stack Development, demonstrating proficiency in
+  MERN stack technologies and project management.
+- Completed Salesforce Developer Training Program and internship of 3 months,
+  gaining hands-on experience in Apex, Flows, Lightning and Administrator.
+  Credential ID: LNXCoE25NIET0125.
+
+Skills
+- Programming: Java, JavaScript, HTML/CSS, SQL, Node.js, React.js, Apex, SOQL,
+  Trigger
+- Tools: Android Studio, Eclipse, Git, Bootstrap, GitHub, Salesforce Developer
+  Tools
