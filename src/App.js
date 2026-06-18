@@ -36,6 +36,7 @@ import {
   SiExpress,
   SiJavascript,
   SiMongodb,
+  SiPython,
   SiSalesforce,
 } from "react-icons/si";
 import "./App.css";
@@ -67,9 +68,9 @@ const navItems = [
 ];
 
 const stats = [
-  { label: "Projects Completed", value: "2+", icon: FaCode },
+  { label: "Projects Completed", value: "3+", icon: FaCode },
   { label: "Technologies", value: "12+", icon: FaRocket },
-  { label: "Certifications", value: "2", icon: FaAward },
+  { label: "Certifications", value: "5", icon: FaAward },
   { label: "Internship Experience", value: "3 Months", icon: FaBriefcase },
 ];
 
@@ -107,6 +108,18 @@ const education = [
     place: "Greater Noida Institute of Technology, Greater Noida",
     badge: "CGPA 7.0",
   },
+  {
+    period: "Completed, 2021",
+    title: "Senior Secondary (12th Class)",
+    place: "School Education",
+    badge: "2021",
+  },
+  {
+    period: "Completed, 2019",
+    title: "Secondary (10th Class)",
+    place: "School Education",
+    badge: "2019",
+  },
 ];
 
 const skillGroups = [
@@ -121,13 +134,15 @@ const skillGroups = [
     ],
   },
   {
-    title: "Backend",
+    title: "Programming & Backend",
     skills: [
       { name: "Node.js", icon: FaNodeJs, color: "text-green-600" },
       { name: "Express.js", icon: SiExpress, color: "text-neutral-800 dark:text-neutral-100" },
       { name: "MongoDB", icon: SiMongodb, color: "text-emerald-600" },
       { name: "SQL", icon: FaDatabase, color: "text-blue-600" },
       { name: "Java", icon: FaJava, color: "text-red-500" },
+      { name: "Python", icon: SiPython, color: "text-blue-500" },
+      { name: "DSA", icon: FaCode, color: "text-violet-600" },
     ],
   },
   {
@@ -162,6 +177,16 @@ const responsibilities = [
 
 const projects = [
   {
+    title: "OSR Solutions Website",
+    image: asset("/assets/project-osr.svg"),
+    tech: ["React.js", "Tailwind CSS", "Framer Motion"],
+    description:
+      "Developed a professional business website for OSR Solutions with premium UI/UX, responsive design, animations, product showcase, customer reviews, exhibition section, contact system and modern branding.",
+    live: "https://osrsolutions.in",
+    github: profile.github,
+    featured: true,
+  },
+  {
     title: "Blog Application with Authentication",
     image: asset("/assets/project-blog.svg"),
     tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
@@ -169,7 +194,6 @@ const projects = [
       "A full-featured blog application enabling users to register, authenticate and manage posts. Built responsive React UI, JWT authentication, secure access control and predictable state management.",
     live: "#contact",
     github: profile.github,
-    featured: true,
   },
   {
     title: "Full Fledge E-Commerce Website",
@@ -203,11 +227,15 @@ const projects = [
 const certifications = [
   { title: "Full Stack Development Certification", issuer: "MERN stack technologies and project management", year: "2024" },
   { title: "Salesforce Developer Training Program", issuer: "Credential ID: LNXCoE25NIET0125", year: "2025" },
+  { title: "Java Certification", issuer: "Infosys Springboard", year: "Certified" },
+  { title: "DSA Certification", issuer: "Infosys Springboard", year: "Certified" },
+  { title: "Python Certification", issuer: "Infosys Springboard", year: "Certified" },
 ];
 
 const achievements = [
   "Earned a certification in Full Stack Development with MERN stack and project management exposure.",
   "Completed a 3-month Salesforce Developer Training Program and internship.",
+  "Completed Java, DSA and Python certifications through Infosys Springboard.",
   "Gained hands-on experience in Apex, Flows, Lightning, Administrator concepts and Salesforce Developer Tools.",
   "Built authentication-driven React projects with JWT and back-end integration.",
   "Maintaining current MCA CGPA of 7.8 after graduating BCA with CGPA 7.0.",
@@ -303,10 +331,6 @@ function App() {
             >
               {darkMode ? <FaSun /> : <FaMoon />}
             </button>
-            <a className="primary-button hidden sm:inline-flex" href={profile.resume} download>
-              <FaDownload />
-              Download Resume
-            </a>
             <button
               className="icon-button xl:hidden"
               type="button"
@@ -338,10 +362,6 @@ function App() {
                   </button>
                 ))}
               </div>
-              <a className="primary-button mt-3 w-full justify-center sm:hidden" href={profile.resume} download>
-                <FaDownload />
-                Download Resume
-              </a>
             </motion.div>
           )}
         </AnimatePresence>

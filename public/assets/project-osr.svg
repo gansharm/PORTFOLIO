@@ -1,0 +1,31 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="560" rx="34" fill="#0F172A"/>
+  <rect width="900" height="560" rx="34" fill="url(#bg)"/>
+  <rect x="58" y="58" width="784" height="444" rx="26" fill="white" fill-opacity=".92"/>
+  <rect x="90" y="92" width="720" height="58" rx="17" fill="#F8FAFC"/>
+  <circle cx="122" cy="121" r="12" fill="#6D5DFC"/>
+  <circle cx="156" cy="121" r="12" fill="#38BDF8"/>
+  <circle cx="190" cy="121" r="12" fill="#22C55E"/>
+  <rect x="626" y="109" width="154" height="24" rx="12" fill="#DDD6FE"/>
+  <rect x="106" y="198" width="285" height="32" rx="16" fill="#111827"/>
+  <rect x="106" y="250" width="372" height="18" rx="9" fill="#64748B"/>
+  <rect x="106" y="285" width="318" height="18" rx="9" fill="#94A3B8"/>
+  <rect x="106" y="340" width="130" height="46" rx="15" fill="#6D5DFC"/>
+  <rect x="260" y="340" width="130" height="46" rx="15" fill="#E0F2FE"/>
+  <rect x="535" y="196" width="210" height="190" rx="28" fill="url(#card)"/>
+  <path d="M566 324C600 277 629 258 662 267C700 278 709 322 745 333V386H566V324Z" fill="#312E81"/>
+  <circle cx="696" cy="244" r="36" fill="#F59E0B"/>
+  <text x="106" y="452" fill="#6D5DFC" font-family="Arial, sans-serif" font-size="36" font-weight="800">OSR Solutions</text>
+  <text x="106" y="486" fill="#475569" font-family="Arial, sans-serif" font-size="18" font-weight="700">Business website, showcase, reviews and modern branding</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#312E81"/>
+      <stop offset=".52" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="card" x1="535" y1="196" x2="745" y2="386" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+  </defs>
+</svg>

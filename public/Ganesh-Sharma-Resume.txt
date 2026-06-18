@@ -23,6 +23,8 @@ Education
   Greater Noida, Uttar Pradesh. Pursuing now. Current CGPA: 7.8.
 - Bachelor in Computer Application, Greater Noida Institute of Technology,
   Greater Noida, Uttar Pradesh. Graduated June 2024. CGPA: 7.0.
+- Senior Secondary (12th Class). Completed in 2021.
+- Secondary (10th Class). Completed in 2019.
 
 Projects
 1. Blog Application with Authentication
@@ -43,9 +45,12 @@ Academic Achievements
 - Completed Salesforce Developer Training Program and internship of 3 months,
   gaining hands-on experience in Apex, Flows, Lightning and Administrator.
   Credential ID: LNXCoE25NIET0125.
+- Completed Java certification from Infosys Springboard.
+- Completed DSA certification from Infosys Springboard.
+- Completed Python certification from Infosys Springboard.
 
 Skills
-- Programming: Java, JavaScript, HTML/CSS, SQL, Node.js, React.js, Apex, SOQL,
-  Trigger
+- Programming: Java, Python, DSA, JavaScript, HTML/CSS, SQL, Node.js, React.js,
+  Apex, SOQL, Trigger
 - Tools: Android Studio, Eclipse, Git, Bootstrap, GitHub, Salesforce Developer
   Tools
