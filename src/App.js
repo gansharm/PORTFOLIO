@@ -52,7 +52,7 @@ const profile = {
   location: "Greater Noida, Uttar Pradesh",
   github: "https://github.com/gansharm",
   linkedin: "https://www.linkedin.com/in/ganesh-sharma564211253",
-  resume: asset("/Ganesh-Sharma-Resume.pdf"),
+  resume: asset("/Ganesh-Sharma-Resume-ATS.pdf"),
 };
 
 const navItems = [
@@ -68,7 +68,7 @@ const navItems = [
 ];
 
 const stats = [
-  { label: "Projects Completed", value: "3+", icon: FaCode },
+  { label: "Projects Completed", value: "4+", icon: FaCode },
   { label: "Technologies", value: "12+", icon: FaRocket },
   { label: "Certifications", value: "5", icon: FaAward },
   { label: "Internship Experience", value: "3 Months", icon: FaBriefcase },
@@ -187,30 +187,30 @@ const projects = [
     featured: true,
   },
   {
-    title: "Blog Application with Authentication",
-    image: asset("/assets/project-blog.svg"),
-    tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
-    description:
-      "A full-featured blog application enabling users to register, authenticate and manage posts. Built responsive React UI, JWT authentication, secure access control and predictable state management.",
-    live: "#contact",
-    github: profile.github,
-  },
-  {
     title: "Full Fledge E-Commerce Website",
     image: asset("/assets/project-ecommerce.svg"),
     tech: ["React", "Node.js", "API Integration", "CORS", "JWT"],
     description:
       "Designed and implemented an e-commerce website with front-end and back-end tech, user authentication, order management, cart functionality and admin controls.",
-    live: "#contact",
+    live: "https://frontend-3f67.vercel.app/",
     github: profile.github,
   },
   {
-    title: "MERN Stack Practice",
+    title: "Personal Portfolio Website",
     image: asset("/assets/project-portfolio.svg"),
-    tech: ["MongoDB", "Express.js", "React", "Node.js"],
+    tech: ["React", "Tailwind CSS", "Framer Motion", "Responsive UI"],
     description:
-      "Hands-on MERN development practice focused on scalable web applications, clean architecture, project planning, deployment and maintenance.",
-    live: "#contact",
+      "Built a modern personal portfolio to showcase projects, skills, certifications, resume download, contact information and responsive recruiter-friendly sections.",
+    live: "https://portfolio-ten-rose-ia30xttsj2.vercel.app/",
+    github: profile.github,
+  },
+  {
+    title: "Gym Website",
+    image: asset("/assets/project-blog.svg"),
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "Render"],
+    description:
+      "Built a modern fitness website with membership plan selection, contact forms, newsletter signup, MongoDB Atlas integration and Render deployment.",
+    live: "https://gym-8wo1.onrender.com/#/membership",
     github: profile.github,
   },
   {
@@ -741,7 +741,12 @@ function ProjectCard({ project }) {
           ))}
         </div>
         <div className="mt-5 grid grid-cols-2 gap-3">
-          <a className="primary-button justify-center px-4 py-3 text-xs" href={project.live}>
+          <a
+            className="primary-button justify-center px-4 py-3 text-xs"
+            href={project.live}
+            target={project.live.startsWith("http") ? "_blank" : undefined}
+            rel={project.live.startsWith("http") ? "noreferrer" : undefined}
+          >
             Live Demo
             <FaExternalLinkAlt />
           </a>
